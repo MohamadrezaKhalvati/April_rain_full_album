@@ -12,8 +12,9 @@ function App() {
 					text="Created With Love And Respect"
 				></Text>
 			</div>
-			<div>
-				<QrCode key={"hello"}></QrCode>
+			<div className="bg-darkblue">
+				{/* <QrCode></QrCode> */}
+				<span>asd</span>
 			</div>
 		</div>
 	);

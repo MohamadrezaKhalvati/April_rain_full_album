@@ -1,12 +1,11 @@
 import React from "react";
+import QRCode from "react-qr-code";
 
 export default function QrCode() {
-	const address = import.meta.env.VITE_TELEGRAM_ADDRESS;
-	console.log(address);
+	const address: string = import.meta.env.VITE_TELEGRAM_ADDRESS;
 	return (
 		<div>
-			<span>asd</span>
-			{/* <QRCode value="asd"></QRCode> */}
+			<QRCode value={address}></QRCode>
 		</div>
 	);
 }
