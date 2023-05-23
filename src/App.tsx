@@ -1,20 +1,15 @@
-import { useState } from "react";
 import "./App.css";
-import Text from "./components/text/text";
 import QrCode from "./components/qrCode/qr-code";
+import Text from "./components/text/text";
 
 function App() {
 	return (
 		<div>
-			<div>
-				<Text
-					className="text-red-400"
-					text="Created With Love And Respect"
-				></Text>
+			<div className="mt-[100px]">
+				<Text className="" text="Created With Love And Respect"></Text>
 			</div>
-			<div className="bg-darkblue">
-				{/* <QrCode></QrCode> */}
-				<span>asd</span>
+			<div className="mt-[160px]">
+				<QrCode></QrCode>
 			</div>
 		</div>
 	);

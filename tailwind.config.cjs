@@ -8,6 +8,11 @@ module.exports = {
 			boldBLue: "#526D82",
 			regularBlue: "#9DB2BF",
 			lightBlue: "#DDE6ED",
+			whiteTextColor: "#FFFFFF",
+		},
+		screens: {
+			sm: "360px",
+			lg: "1440px",
 		},
 	},
 };

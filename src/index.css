@@ -18,9 +18,26 @@
 
 
 body {
-	margin: 0;
+	background-color: #27374D;
 	display: flex;
 	place-items: center;
-	min-width: 320px;
-	min-height: 100vh;
+}
+
+span {
+	color: #FFFFFF;
+}
+
+@font-face {
+	font-family: SourceSansPro_Bold;
+	src: url("./../src/assets/fonts/SourceSansPro-Bold.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: SourceSansPro_Regular;
+	src: url("./../src/assets/fonts/SourceSansPro-Regular.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: SourceSansPro_SemiBold;
+	src: url("./../src/assets/fonts/SourceSansPro-SemiBold.ttf") format("truetype")
 }
