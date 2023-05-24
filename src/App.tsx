@@ -1,18 +1,11 @@
-import "./App.css";
-import QrCode from "./components/qrCode/qr-code";
-import Text from "./components/text/text";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { RouterProvider } from "react-router-dom";
+import "./index.css";
+import routes from "./routes/routes";
 
-function App() {
-	return (
-		<div>
-			<div className="mt-[100px]">
-				<Text className="" text="Created With Love And Respect"></Text>
-			</div>
-			<div className="mt-[160px]">
-				<QrCode></QrCode>
-			</div>
-		</div>
-	);
-}
-
-export default App;
+ReactDOM.createRoot(document.getElementById("root")).render(
+	<React.StrictMode>
+		<RouterProvider router={routes} />
+	</React.StrictMode>
+);

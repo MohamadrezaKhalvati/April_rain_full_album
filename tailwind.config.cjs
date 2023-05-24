@@ -3,6 +3,9 @@
 module.exports = {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
+		fontFamily: {
+			MontserratRegular: ["Montserrat_Regular", "normal"],
+		},
 		colors: {
 			darkblue: "#27374D",
 			boldBLue: "#526D82",
@@ -11,7 +14,7 @@ module.exports = {
 			whiteTextColor: "#FFFFFF",
 		},
 		screens: {
-			sm: "360px",
+			sm: "428px",
 			lg: "1440px",
 		},
 	},
