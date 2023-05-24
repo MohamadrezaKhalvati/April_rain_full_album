@@ -10,16 +10,20 @@ export default function Main() {
 			}
 		>
 			<div className="mt-[58px]">
-				<Text text="Join Channel"></Text>
+				<Text text="Join Channel" className="font-semibold text-20"></Text>
 			</div>
-			<div>
-				<Text className="mt-[78px]" text="Scan the Qr code for Joining"></Text>
+			<div className="mt-[78px]">
+				<Text
+					className="font-medium text-25"
+					text="Scan the Qr code for Joining"
+				></Text>
 			</div>
 			<div className="mt-[67px]">
 				<QrCode></QrCode>
 			</div>
-			<div className="mt-[48px]">
+			<div className="mt-[48px] ">
 				<Text
+					className="font-semibold text-14 text-center"
 					text="The QR code will be automatically detected
 								when you position it between the guide lines"
 				></Text>
@@ -34,7 +38,7 @@ export default function Main() {
 					href="#"
 					className={
 						style.buttonBackground +
-						" px-6 py-3  no-underline rounded hover:underline text-whiteTextColor "
+						" px-6 py-3  no-underline rounded hover:underline text-whiteTextColor text-15 "
 					}
 				>
 					Clck Here
