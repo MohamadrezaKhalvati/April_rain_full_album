@@ -6,7 +6,8 @@ export default function QrCodeCom() {
 	return (
 		<div
 			className={
-				style.main + " flex flex-col items-center font-MontserratRegular  "
+				style.main +
+				" flex flex-col items-center font-MontserratRegular w-fit m-auto  "
 			}
 		>
 			<div className="mt-[58px]">
@@ -14,16 +15,16 @@ export default function QrCodeCom() {
 			</div>
 			<div className="mt-[78px]">
 				<Text
-					className="font-medium text-25"
+					className="font-medium text-25 w-[314px] text-center"
 					text="Scan the Qr code for Joining"
 				></Text>
 			</div>
-			<div className="mt-[67px]">
+			<div className="mt-[67px] mx-[58px]">
 				<QrCode></QrCode>
 			</div>
-			<div className="mt-[48px] ">
+			<div className="mt-[48px]   ">
 				<Text
-					className="font-semibold text-14 text-center"
+					className="font-semibold text-14 text-center w-[326px]  "
 					text="The QR code will be automatically detected
 								when you position it between the guide lines"
 				></Text>
