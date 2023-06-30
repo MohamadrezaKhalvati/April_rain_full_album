@@ -9,32 +9,32 @@ export default function QrCodeCom() {
 		<div
 			className={
 				style.main +
-				" flex flex-col items-center font-MontserratRegular w-fit m-auto  "
+				" flex flex-col items-center font-MontserratRegular sm:w-auto lg:w-fit lg:m-auto   "
 			}
 		>
-			<div className="mt-[58px]">
+			<div className="mt-[28px]">
 				<Text text="Join Channel" className="font-semibold text-20"></Text>
 			</div>
-			<div className="mt-[78px]">
+			<div className="mt-[48px]">
 				<Text
 					className="font-medium text-25 w-[314px] text-center"
 					text="Scan the Qr code for Joining"
 				></Text>
 			</div>
-			<div className="mt-[67px] mx-[58px]">
+			<div className="mt-[37px] mx-[58px]">
 				<QrCode></QrCode>
 			</div>
-			<div className="mt-[48px]">
+			<div className="mt-[28px]">
 				<Text
-					className="text-14 text-center w-[326px]  "
+					className="text-14 text-center lg:w-[326px] sm : mx-[1px] "
 					text="The QR code will be automatically detected
 								when you position it between the guide lines"
 				></Text>
 			</div>
-			<div className="mt-[42px] flex flex-row">
+			<div className="mt-[12px] flex flex-row">
 				<Hr></Hr>
 			</div>
-			<div className="mt-[52px] mb-[74px]">
+			<div className="mt-[22px] mb-[64px]">
 				<LinkButton></LinkButton>
 			</div>
 		</div>
